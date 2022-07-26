@@ -1,0 +1,132 @@
+
+@font-face {
+    font-family: Gilroy-regular;
+    src: url(Fonts/Gilroy-Regular.ttf);
+}
+
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(Fonts/Gilroy-Bold.ttf);
+}
+
+
+*{
+    margin:0;
+    padding:0;
+}
+
+html{
+    background:#1A1C1E;
+    color:white;
+    font-family:Gilroy-Regular;
+}
+
+.main-container{
+    height:99vh;
+}
+
+.brd{
+    border:1px solid red;
+}
+
+.subheading{
+    color:#AAAAAA ;
+}
+
+.header{
+    margin-top:50px;
+    padding-left:20px;
+}
+
+.body{
+    margin-top:50px;
+    padding-left:20px;
+}
+
+.flex{
+    display:flex;
+}
+
+.f-row{
+    flex-direction:row;
+}
+
+.f-col{
+    flex-direction:column;
+}
+
+.f-jc{
+    justify-content: center;
+}
+.f-ac{
+    align-items: center;
+}
+
+.f-center{
+    justify-content: center;
+    align-items: center;
+}
+
+.old-entires{
+    width:35%;
+}
+
+.new-entries{
+    width:49%;
+    height:100%;
+    padding-left:10px;
+}
+
+.entry{
+    margin-top:17px;
+    height:100px;
+    width:90%;
+    background:#292B2D;
+    border-radius:5px;
+    color:white;
+    padding-left:15px;
+    font-size:20px;
+}
+
+.new-entry{
+    outline:none !important;
+    border:none !important;
+    margin-top:10px;
+    height:100px;
+    width:90%;
+    background:#292B2D;
+    border-radius:5px;
+    color:white;
+    padding-left:15px;
+    font-size:16px;
+}
+
+.add-container{
+    width:90%;
+    height:40px;
+    padding-left:15px;
+    justify-content: flex-end;
+    margin-top:5%;
+}
+
+.add{
+    background:#292B2D;
+    border:none;
+    border-radius:5px;
+    color:white;
+    padding-left:15px;
+    font-size:16px;
+    width:15%;
+    height:100%;
+    padding-left:0;
+}
+
+
+.clickable{
+    transition: transform cubic-bezier(0.075, 0.82, 0.165, 1) 0.4s;
+}
+
+.clickable:hover{
+    transform: scale(1.234);
+    cursor: pointer;
+}
